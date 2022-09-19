@@ -5,7 +5,6 @@
 
   $hostname = shell_exec('hostname');
 ?>
-
 <div class="col-sm-8 title-text">
   <h1>Currant Pi</h1>
   <h3>Raspberry Pi Status</h3>

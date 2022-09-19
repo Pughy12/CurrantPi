@@ -82,7 +82,7 @@ $storage_data = $storage->getData();
 
                 // Everything else, make sure it;s center aligned.
                 default:
-                    echo "<td><p class='text-center'>$item</p></td>";
+                    echo "<td><p class='text-center'>$item" . "B" . "</p></td>";
               }
                 ++$col_count;
             }

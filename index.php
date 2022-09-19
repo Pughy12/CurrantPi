@@ -26,7 +26,7 @@
   </head>
 
   <body>
-
+    <div class="line" style="--duration: 11;"></div>
     <div class="container">
         <!-- Banner -->
       <div class="header clearfix title-area">

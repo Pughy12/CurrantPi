@@ -25,7 +25,7 @@ class StorageData implements CurrantModule
          */
 
         $df_output = array(2);
-        $df_output[0] = shell_exec('df -H -x tmpfs -x devtmpfs');
+        $df_output[0] = shell_exec('df -H -x tmpfs -x devtmpfs -x vfat');
         $df_output[1] = shell_exec('df -H | grep \'tmpfs\|devtmpfs\|Filesystem\'');
 
         $df_array = array(2);
